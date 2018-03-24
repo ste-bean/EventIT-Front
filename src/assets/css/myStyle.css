@@ -1,0 +1,30 @@
+#event-container{
+}
+#event1:hover,#event2:hover,#event3:hover,#event4:hover,#event5:hover,#event6:hover,#event7:hover,#event8:hover,#event9:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+#event1, #event2, #event3{
+	width: 400px;
+	height: 300px;
+	float: left;
+	padding: 10px;
+}
+#event4{
+	width: 500px;
+	height: 400px;
+	float: left;
+	padding: 10px;
+}
+#event5{
+	width: 755px;
+	height: 400px;
+	float: right;
+	padding: 10px;
+}
+#event6, #event7, #event8{
+	width: 400px;
+	height: 300px;
+	float: left;
+	padding: 10px;
+}

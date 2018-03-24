@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class = "animated fadeIn">
+<head>
+  <title>EventIT - Home</title>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <!--================= NAVBAR =================-->
+  <nav class = "navbar navbar-inverse">
+    <div class = "container-fluid">
+
+      <div class = "navbar-header">
+        <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+          <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>                        
+        </button>
+        <a class = "navbar-brand" href = "#">Event IT</a>
+      </div>
+
+      <div class = "collapse navbar-collapse" id = "myNavbar">
+
+        <ul class = "nav navbar-nav">
+          <li class = "active"><a href = " ">Home</a></li>
+          <li><a href = "#">About</a></li>
+          <li><a href = "#">Events</a></li>
+        </ul>
+
+        <ul class = "nav navbar-nav navbar-right">
+          <li><a href = "#"><span class = "glyphicon glyphicon-user"></span> Create Event</a></li>
+          <li><a href = "#" data-toggle = "modal" data-target = "#login"><span class = "glyphicon glyphicon-log-in"></span> Login</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!--================= NAVBAR =================-->
+
+  <!--================= LOGIN MODAL =================-->
+  <div class = "modal fade" id = "login" role = "dialog">
+    <div class = "modal-dialog">
+      <div class = "modal-content">
+
+        <div class = "modal-header">
+          <button type = "button" class = "close" data-dismiss = "modal">&times;</button>
+          <h4 class = "modal-title">Modal Header</h4>
+        </div>
+
+        <div class = "modal-body">
+          <h3>Body</h3>
+        </div>
+
+        <div class = "modal-footer">
+          <input type = "submit" class = "btn btn-lg btn-success" value = "Sign In">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--================= LOGIN MODAL =================-->
+
+  <!--================= CAROUSEL =================-->
+  <img src = "assets/images/carousel2.jpg" width = "100%" height = "500px">
+  <!--================= CAROUSEL =================-->
+  <br><br><br>
+
+  <!--================= EVENTS =================-->
+  <h3 style = "text-align: center">Latest Events</h3>
+  <br>
+
+  <div class = "container-fluid" id = "event-container">
+    <div class = "col-md-4"><img src = "assets/images/event1.jpg" id = "event1"></div>
+    <div class = "col-md-4"><img src = "assets/images/event2.jpg" id = "event2"></div>
+    <div class = "col-md-4"><img src = "assets/images/event3.jpg" id = "event3"></div>
+
+    <div class = "col-md-4"><img src = "assets/images/event4.jpg" id = "event4"></div>
+    <div class = "col-md-8"><img src = "assets/images/event5.jpg" id = "event5"></div>
+
+    <div class = "col-md-4"><img src = "assets/images/event6.jpg" id = "event6"></div>
+    <div class = "col-md-4"><img src = "assets/images/event7.jpg" id = "event7"></div>
+    <div class = "col-md-4"><img src = "assets/images/event8.jpg" id = "event8"></div>
+  </div>
+  <!--================= EVENTS =================-->
+
+  <!--================= FOOTER =================-->
+  <div class = "footer">
+    <div class = "well" style = "text-align: center">
+      &copy; EVENTIT 2018
+    </div>
+  </div>
+  <!--================= FOOTER =================-->  
+
+</body>
+</html>
